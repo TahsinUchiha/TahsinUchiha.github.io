@@ -346,83 +346,9 @@ footer {
 
 
 
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 640px) {
     body {background: url("https://images.unsplash.com/photo-1580508244245-c446ca981a6b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=987&q=80");
     }
-
-    #header-img {
-        height: 50px;
-        width: 50px;
-    }
-
-
-    #header-div {
-    display: flex;
-    position: fixed;
-    background-color:rgb(236, 196, 177);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-right: 1px solid rgb(255, 255, 255);
-    height: 30px;
-    color: rgb(97, 8, 8);
-    top: 0;
-    left: 0;
-    right: 0;
-    font-size: 40px;
-    padding-left: 1px;
-    padding-right: 1px;
-    padding-top: 27px;
-    padding-bottom: 27px;
-    box-shadow: 10px 5px 5px rgb(155, 75, 75);
-    
-  }
-
-    #navbar {
-        font-size: 20px;
-        float: right;
-        position: absolute;
-        right: 0;
-        
-    }
-
-    #nav-list a {
-        color: rgb(54, 1, 1);
-        background-color:rgb(236, 196, 177);
-        border-radius: 5px;
-        padding: 1px 5px;
-        font-size: 40px;
-        text-align: center;
-        text-decoration: none;
-    }
-    
-    .dropdown {
-        display: inline-block;
-      }
-    
-      .dropdown .dropbtn {
-        color: rgb(54, 1, 1);
-        background-color:rgb(236, 196, 177);
-        border-radius: 5px;
-        padding: 1px 5px;
-        font-size: 40px;
-        margin: 0;
-        cursor: pointer;
-      }
-    
-      .dropdown-content {
-        background-color:rgb(236, 196, 177);
-        border-radius: 5px;
-        box-shadow: 10px 10px 8px #280000;
-        display: none;
-        position: absolute;
-        z-index: 1;
-        
-      }
-    
-    
-      .dropdown-content a {
-        display: block;
-      }
 
     #contact {
         height: 160vh;
